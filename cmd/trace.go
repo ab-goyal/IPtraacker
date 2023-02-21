@@ -46,6 +46,7 @@ type Ip struct {
 }
 
 func showData(ip string) {
+	//using postman
 	url := "https://ipinfo.io/1.1.1.1/geo"
 	responseByte := getData(url)
 	data := Ip{}
